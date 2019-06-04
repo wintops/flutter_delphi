@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/06/04 17:23:19.175,=C:\Users\tk\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/06/04 17:24:18.664,C:\dev\flutter-desktop-embedding\example\Dll1\Unit2.dfm=C:\Users\tk\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2019/06/04 17:24:18.664,C:\dev\flutter-desktop-embedding\example\Dll1\Unit2.pas=C:\Users\tk\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/06/04 17:24:22.217,C:\dev\flutter-desktop-embedding\example\Dll1\Project2.dproj=C:\Users\tk\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
