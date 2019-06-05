@@ -1,10 +1,19 @@
 unit Unit2;
 
+{$IFDEF FPC}
+  {$MODE Delphi}
+{$ENDIF}
+
 interface
 
 uses
+  {$IFnDEF FPC}
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+{$ELSE}
+ Classes,  Forms,  StdCtrls;
+{$ENDIF}
+
 
 type
   TForm2 = class(TForm)
@@ -23,7 +32,11 @@ var
 function start:integer; stdcall;
 implementation
 
-{$R *.dfm}
+{$IFnDEF FPC}
+  {$R *.dfm}
+{$ELSE}
+  {$R *.lfm}
+{$ENDIF}
 
 const
   DLLName = 'Dll1.dll';
